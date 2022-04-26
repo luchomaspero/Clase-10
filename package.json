@@ -1,0 +1,23 @@
+{
+  "name": "clase-10",
+  "version": "1.0.0",
+  "description": "Juego Simon Dice",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luchomaspero/Clase-10.git"
+  },
+  "author": "Lucio F. Maspero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luchomaspero/Clase-10/issues"
+  },
+  "homepage": "https://github.com/luchomaspero/Clase-10#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}

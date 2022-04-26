@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--https://getbootstrap.com/docs/5.1/customize/components/-->
+</head>
+<body style="background-color: black;">
+  <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+            <div id="estado" class="alert alert-primary" role ="alert"><!--estado--></div>
+        </div>
+        <div style="color: white;" class="col"><h5>Ronda #<strong id="ronda"></strong></h5></div>
+        <div class="col" id="boton-comienzo">
+            <button type="button" class="btn btn-primary" id="botonComienzo">Empezar</button>
+        </div>
+      </div>
+    </div>   
+    <div class="container" id="tablero">  
+      <div class="row">
+            <div class="col">
+                <div class="cuadro" id="cuadro-1">A</div>
+            </div>
+            <div class="col">
+                <div class="cuadro" id="cuadro-2">B</div>
+            </div>
+      </div>
+      <div class="row">
+        <div class="col">
+            <div class="cuadro" id="cuadro-3">C</div>
+        </div>
+        <div class="col">
+            <div class="cuadro" id="cuadro-4">D</div>
+      </div>
+    </div>
+    
+</body>
+    
+    <script src='main.js'></script>
+    <script src='pruebas.js'></script>
+</html>
